@@ -13,7 +13,7 @@ pyautogui.press("enter")
 time.sleep (5)
 
 # Passo 2; Importar a base de produtos para cadastrar
-tabela = pd.read_csv("produtos.csv")
+tabela = pd.read_csv("./form-bot/produtos.csv")
 
 # Passo 3: Cadastrar um produto
 for linha in tabela.index:
