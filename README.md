@@ -9,3 +9,5 @@ OBS.: As configurações de posição do mouse foram ajustadas para uma tela Ful
 This project aims to create a BOT developed in Python to automate the process of registering items in a Google Form using data from a CSV file. The automation will be achieved with the help of the "pyautogui" library to control the KVM (Keyboard, Video, and Mouse).
 
 NOTE: The mouse position settings have been adjusted for a Full HD screen (1920x1080). If you are using a different screen resolution, you can adapt the mouse movements by using the "get-position.py" file function to collect the mouse position and replace it where necessary.
+
+![form-bot](https://github.com/martibez/form-bot/assets/30596420/2433a377-e926-4333-9786-81073142fca7)
