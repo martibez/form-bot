@@ -6,6 +6,7 @@ pyautogui.PAUSE = 0.3
 pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
+time.sleep (1)
 pyautogui.hotkey('win','up')
 # entrar no link
 pyautogui.write("https://forms.gle/TJZYuSLgLVYyKtReA")
@@ -18,7 +19,7 @@ tabela = pd.read_csv("./form-bot/produtos.csv")
 # Passo 3: Cadastrar um produto
 for linha in tabela.index:
     # clicar no campo codigo
-    pyautogui.click(x=753, y=372)
+    pyautogui.click(x=781, y=338)
     # pegar da tabela o valor do campo desejado
     codigo = tabela.loc[linha,"codigo"]
     # preencher o campo
@@ -40,8 +41,8 @@ for linha in tabela.index:
     pyautogui.press("enter")
     time.sleep(2)
     # salvar formulário
-    pyautogui.click(x=784, y=428)
+    pyautogui.click(x=781, y=395)
     time.sleep(2)
     # cadastrar novo item
-    pyautogui.click(x=729, y=263)
+    pyautogui.click(x=728, y=228)
     time.sleep(3)
